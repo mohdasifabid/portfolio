@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
-root {
-    --primary-color: #A7F3D0;
+:root {
+    --primary-color: #6B7280;
     --gray-color: #6B7280;
     --light-gray: #F3F4F6;
+    --yellow-color: #FCD34D;
 }
 
 body {
@@ -63,17 +64,24 @@ hr {
 
 
 .navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    background-color: var(--yellow-color);
+    color: black;
+    padding: 2rem;
+    border-bottom-left-radius: 2rem;
+    
+
 }
 
-.navigation .nav-brand {
-    font-weight: bold;
-}
-.navigation .nav-pills {
+/* .navigation .nav-brand {
+    font-weight: bold; */
+/* } */
+
+.nav-list {
     text-align: right;
+}
+
+.navigation .nav-pills {
+    
 }
 
 .navigation .link-active {
@@ -108,25 +116,53 @@ hr {
 .section {
     text-align: center;
     padding: 2rem;
+    background-color: #FFFBEB;
 }
 
 .section h3 {
     text-align: center;
     padding: 2rem;
-    background-color: var(--light-gray);
+    background-color: #FFFBEB;
+}
+
+.section-content {
+    text-align: center;
+}
+/* .section-content {
+    background-color: whitesmoke; */
+
 }
 
 
+
+.button-b {
+    border: none;
+  background-color: inherit;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
 .footer {
-    background-color: var(--gray-color);
+    background-color: var(--yellow-color);
     padding: 2rem 1rem;
     text-align: center;
 }
 
+.footer .footer-header {
+    text-align: center;
+    /* background-color: var(--yellow-color); */
+}
 .footer .links {
-    color: var(--primary-color);
+    color: black;
+    font-weight: bold;
+    /* background-color: var(--yellow-color); */
+    
+    
 }
 
 .footer .list-inline {
     padding-inline-start: 0px;
+    display: inline;
 }
