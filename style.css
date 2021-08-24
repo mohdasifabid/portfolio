@@ -114,14 +114,16 @@ hr {
 /* } */
 
 .button-b {
-  border: 1px solid var(--yellow-color);
-  color: var(--yellow-color);
+  border: 2px solid var(--yellow-color);
+  color: black;
   padding: 8px 18px;
   font-size: 16px;
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
   border-radius: 6px;
+  background-color: #fffbeb;
+  margin: 10px;
 }
 
 .center {
@@ -131,6 +133,7 @@ hr {
   background-color: var(--yellow-color);
   padding: 2rem 1rem;
   text-align: center;
+  margin-top: 20px;
 }
 
 .footer .footer-header {
